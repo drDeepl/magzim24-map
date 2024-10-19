@@ -1,0 +1,46 @@
+#lang-select{
+    display: none;
+    position: absolute;
+    width: inherit;
+}
+#combobox-language-selection{
+    width: 190px;
+    background-color:white;
+}
+#combobox-btn{
+    height: 40px;
+    border:none;
+    display: flex;
+    align-items: center;
+    width: inherit;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    background-color:white;
+}
+#combobox-btn img{
+    width: 15px;
+}
+.combobox-option{
+    width: inherit;
+    height:40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    line-height: 0.3em;
+    padding: 0 5px;
+}
+.combobox-option img{
+    width: 15px;
+    margin: 0 5px;
+}
+#combobox-btn-arrow{
+    transform: rotate(180deg);
+    height: 10px;
+}
+#combobox-language-selection{
+    margin-top: 10px;
+}
+/* #transIcon{
+    width: 15px;
+} */
